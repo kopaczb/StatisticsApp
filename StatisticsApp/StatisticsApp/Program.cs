@@ -107,6 +107,11 @@
 //    Console.WriteLine("Fałsz");
 //}
 
+Console.WriteLine("--------------------------------------------------------------------------------");
+// ZADANIE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Console.WriteLine("--------------------------------------------------------------------------------");
+
+
 //Console.WriteLine("");
 //Console.WriteLine("Operatory logiczne: &&, ||, ! - np. !(age < 50)");
 
@@ -116,19 +121,144 @@
 //Console.WriteLine("Ctr + K + U");
 //Console.WriteLine("Ctr + K + D");
 
-string name = "Ewa";
-int age = 3;
-string sex = "man";
+//string name = "Ewa";
+//string sex = "man";
+//int age = 90;
 
-if (sex == "woman" && age < 30)
-{
-    Console.WriteLine("Kobieta poniżej 30 lat.");
-}
-else if (sex == "woman" && name == "Ewa" && age == 33)
-{
-    Console.WriteLine("Ewa, lat 33.");
-}
-else if (sex == "man" && age < 18)
-{
-    Console.WriteLine("Niepełnoletni mężczyzna.");
-}
+//if (sex == "woman" && age < 30)
+//{
+//    Console.WriteLine("Kobieta poniżej 30 lat.");
+//}
+//else if (sex == "woman" && name == "Ewa" && age == 33)
+//{
+//    Console.WriteLine("Ewa, lat 33.");
+//}
+//else if (sex == "man" && age < 18)
+//{
+//    Console.WriteLine("Niepełnoletni mężczyzna.");
+//}
+//else if (sex == "woman" && age >= 60)
+//{
+//    Console.WriteLine("Kobieta w wieku emerytalnym.");
+//}
+//else
+//{
+//    Console.WriteLine("Brak kategorii.");
+//}
+
+Console.WriteLine("--------------------------------------------------------------------------------");
+Console.WriteLine("--------------------------------------------------------------------------------");
+
+// ------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------
+
+//int[] grades = new int[5];
+//string[] dayOfWeeks = new string[7];
+//dayOfWeeks[0] = "poniedziałek";
+//dayOfWeeks[1] = "wtorek";
+//dayOfWeeks[2] = "środa";
+//dayOfWeeks[3] = "czwartek";
+//dayOfWeeks[4] = "piątek";
+//dayOfWeeks[5] = "sobota";
+//dayOfWeeks[6] = "niedziela";
+//Console.WriteLine(dayOfWeeks[2]);
+
+//string[] dayOfWeeks2 = { "poniedziałek", "wtorek", "środa", "czwartek", "piątek" };
+//Console.WriteLine(dayOfWeeks2[0]);
+
+
+//for (var i = 0; i < 10; i++)
+//{
+//    Console.WriteLine(i);
+//}
+
+//for (var i = 0; i < 10; i = i + 2)
+//{
+//    Console.WriteLine(i);
+//}
+
+//for (var i = 0; i < dayOfWeeks.Length; i = i + 2)
+//{
+//    Console.WriteLine(dayOfWeeks[i]);
+//}
+
+//List<string> daysOfWeeks3 = new List<string>();
+//dayOfWeeks3.Add("poniedziałek");
+//dayOfWeeks3.Add("wtorek");
+//dayOfWeeks3.Add("środa");
+//dayOfWeeks3.Add("czwartek");
+//dayOfWeeks3.Add("piątek");
+//dayOfWeeks3.Add("sobota");
+//dayOfWeeks3.Add("niedziela");
+
+//for (var i = 0; i < dayOfWeeks3; i++)
+//{
+//    Console.WriteLine(dayOfWeeks3[i]);
+//}
+
+//foreach (var day in daysOfWeeks3)
+//{
+//    Console.WriteLine(day);
+//}
+
+
+Console.WriteLine("--------------------------------------------------------------------------------");
+// ZADANIE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Console.WriteLine("--------------------------------------------------------------------------------");
+
+// Przygotuj program, ktory policzy ile jakich
+// cyfr wystepuje w podanej liczbie:
+//
+// Przykład:
+// Wyniki dla liczby: 4566
+// 0 => 0
+// 1 => 0
+// 2 => 0
+// 3 => 0
+// 4 => 0
+// 5 => 0
+// 6 => 0
+// 7 => 0
+// 8 => 0
+// 9 => 0
+
+//int number = 4566;
+//string numberAsString = number.ToString();
+//char[] letters = numberInString.ToArray();
+
+//char[] digits = new char[] { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' };
+//int[] counts = new int[] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+
+//for (var i = 0; i < letters.Length; i++)
+//{
+//    for (var j = 0; j < digits.Length; j++)
+//    {
+//        if (letters[i] == digits[j])
+//        {
+//            counts[j] += 1;
+//        }
+//    }
+//}
+
+//var ccount = -1;
+//foreach (var count in counts)
+//{
+//    ccount += 1;
+//    Console.WriteLine($"Cyfra {ccount} wystepuje {counts[ccount]} razy.");
+//}
+
+//for (var k = 0; k < counts.Length; k++)
+//{
+//    Console.WriteLine($"Cyfra {k} wystepuje {counts[k]} razy.");
+//}
+
+
+
+Console.WriteLine("--------------------------------------------------------------------------------");
+// KLasy i metody
+Console.WriteLine("--------------------------------------------------------------------------------");
+
+// ------------------------------------------------------------------------------------
+//Lekcja 1
+// ------------------------------------------------------------------------------------
